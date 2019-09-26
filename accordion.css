@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.accordion {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
+
+.accordion-item {
+  padding: 1rem;
+}
+
+.accordion-item:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.accordion-item__header {
+  font-weight: bold;
+  color: #666;
+}
+
+.accordion-item__header::before {
+  content: "\25B8";
+  padding-right: 1rem;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left center;
+}
+
+.accordion-item--open .accordion-item__header,
+.accordion-item__header:hover {
+  color: black;
+}
+
+.accordion-item--open .accordion-item__header::before {
+  transform: rotate(90deg);
+}
+
+.accordion-item__detail {
+  font-size: 0.9rem;
+  overflow: hidden;
+  height: 0;
+}
+
+.accordion-item--open .accordion-item__detail {
+  margin: 1rem;
+  height: auto;
+}
