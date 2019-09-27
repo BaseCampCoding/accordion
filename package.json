@@ -1,0 +1,23 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "Accordion component exercise for Base Camp Coding Academy",
+  "main": "accordion.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  },
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseCampCoding/accordion.git"
+  },
+  "author": "Nate Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BaseCampCoding/accordion/issues"
+  },
+  "homepage": "https://github.com/BaseCampCoding/accordion#readme"
+}
