@@ -5,7 +5,7 @@
   "main": "accordion.js",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "^12.7.0"
   },
   "scripts": {
     "test": "cypress open"
